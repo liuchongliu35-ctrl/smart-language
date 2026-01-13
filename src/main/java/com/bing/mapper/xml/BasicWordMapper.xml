@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bing.mapper.BasicWordMapper">
+    <resultMap id="BaseResultMap" type="com.bing.bean.BasicWord">
+        <id column="yid" property="yid" />
+        <result column="symbol" property="symbol" />
+        <result column="pronunciation" property="pronunciation" />
+        <result column="language" property="language" />
+        <result column="example" property="example" />
+        <result column="translation" property="translation" />
+        <result column="type" property="type" />
+        <result column="wave_path" property="wavePath" />
+    </resultMap>
+
+
+</mapper>

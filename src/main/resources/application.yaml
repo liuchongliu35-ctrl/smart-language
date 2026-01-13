@@ -1,0 +1,23 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql://139.199.181.14:3306/eduplatform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: cv*200316
+
+      #      url: jdbc:mysql://mysql:3306/eduplatform
+      #      password: 123mysql
+  main:
+    allow-bean-definition-overriding: true
+  component-scan:
+    base-package: com.bings.service # 这里替换为你需要扫描的包名
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+#    StdOutImpl在控制台输出日志信息

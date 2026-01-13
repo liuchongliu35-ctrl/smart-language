@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bing.mapper.WordMapper">
+    <resultMap id="BaseResultMap" type="com.bing.bean.WordList">
+        <id column="word_id" property="wordId" />
+        <result column="cid" property="cid" />
+        <result column="text" property="text" />
+        <result column="mother_text" property="motherText" />
+        <result column="grammer" property="grammer" />
+        <result column="spell" property="spell" />
+        <result column="state" property="state" />
+        <result column="difficulty" property="difficulty" />
+        <result column="mp3_path" property="mp3Path" />
+    </resultMap>
+    <delete id="deleteByWordId">
+        delete from word_list
+               where word_id= #{wordId}
+    </delete>
+    <select id="selecMax" resultType="java.lang.Integer">
+        SELECT COUNT(*) as count
+        FROM word_list
+        WHERE cid IN
+        <foreach item='cid' collection='cidList' open='(' separator=',' close=')'>
+        # {cid}
+        </foreach>
+        GROUP BY cid
+        ORDER BY count DESC
+        LIMIT 1;
+    </select>
+
+
+</mapper>
+
+

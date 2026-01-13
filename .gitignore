@@ -1,0 +1,11 @@
+target/
+build/
+bin/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+.idea/
+.vscode/
+*.iml
