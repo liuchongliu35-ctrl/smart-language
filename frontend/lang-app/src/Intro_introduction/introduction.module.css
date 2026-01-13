@@ -1,0 +1,81 @@
+.titleText{
+  /* text-align: right; */
+  width: max-content;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 0px;
+  font-weight: 600;
+  border-bottom: 1px solid #21353c;
+}
+
+.textRight{
+  /* text-align: right; */
+  margin-left: 260px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 0px;
+  border-bottom: 1px solid #21353c;
+  width: max-content;
+
+
+}
+
+.title{
+  font-family: youshe;
+  text-align: center;
+  font-size: 34px;
+  color: #21353c;
+  margin-top: 0px;
+}
+
+.selBox{
+  padding: 30px;
+  width: 870px;
+  height: 500px;
+  border: 5px solid #3c3c3c;
+  margin: auto;
+  border-radius: 5px;
+  background: #eaeaea52;
+  display: flex;
+}
+
+.selBar{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: max-content;
+  height: 60px;
+  background: #3c3c3c;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.left{
+  background: #fff;
+}
+
+.right{
+  background: #fff;
+}
+
+.btn{
+  width: max-content;
+  padding: 10px;
+  font-family: youshe;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  background: #3c3c3c;
+  color: #fff;
+}
+
+.btn:hover{
+  background: #ff3702;
+}

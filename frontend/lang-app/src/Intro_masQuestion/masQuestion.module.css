@@ -1,0 +1,50 @@
+.langBox {
+    margin: auto;
+    width: 1200px;
+    height: 700px;
+    border: 1px solid black;
+  }
+  
+  .card {
+    width: 140px;
+    height: 90px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid black;
+    /* background: linear-gradient(156.07deg, #F5F7FF 62.06%, #EEF5FF 100%); */
+  }
+  
+  .selectBox {
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin-right: 100px;
+  }
+  
+  .box {
+    width: 90%;
+    height: 460px;
+    display: flex;
+    padding: 40px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+  }
+
+  .selectCard{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 2px 2px black;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .selectCard:hover{
+    background-color: aliceblue;
+    box-shadow: 0px 2px 2px #435fff88;
+  }

@@ -1,0 +1,35 @@
+.titleText{
+  font-family: youshe;
+  text-align: center;
+  font-size: 34px;
+  color: #4f4032;
+  margin-top: 0px;
+}
+
+.selBox{
+  padding: 50px;
+  padding-left: 50px;
+  width: 870px;
+  height: 500px;
+  border: 5px solid #3c3c3c;
+  margin: auto;
+  border-radius: 5px;
+  background: #eaeaea52;
+  overflow: auto;
+}
+
+.selBar{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: max-content;
+  height: 60px;
+  background: #3c3c3c;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* 轨道背景色 */
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b4b4b4;
+    /* 滑块颜色 */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* 悬停状态 */
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    /* 垂直滚动条宽度 */
+    height: 2px;
+}

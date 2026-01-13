@@ -1,0 +1,115 @@
+.title{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#3c3c3c ;
+    color: #fff;
+    z-index: 5;
+}
+
+.titleText{
+    padding-left: 60px;
+    width: max-content;
+    height: 100px;
+    font-family: youshe;
+    font-size: 34px;
+    line-height: 100px;
+}
+
+.titleBtn{
+    position: fixed;
+    right: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.content{
+    width: 900px;
+    min-height: 300px;
+    height: max-content;
+    border-radius: 20px;
+    background: linear-gradient(156.07deg, #F5F7FF 62.06%, #EEF5FF 100%);
+    margin-top:60px;
+    padding-top: 30px;
+    position: relative;
+    box-shadow: 0px 3px 3px #435fff5f;
+}
+
+.requirement{
+    /* border: 1px solid black; */
+    margin: auto    ;
+    margin-top: 120px;
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+
+.requireTitle{
+    width: max-content;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    background: #ffbb00;
+    margin: auto;
+    line-height: 30px;
+    font-family: youshe;
+    font-size: 20px;
+}
+
+.radioBox{
+    padding: 25px;
+}
+
+.checkStyle{
+    margin-right: 33px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.checkStyle:nth-child(3n){
+    margin-right: 0px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-family: youshe;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background: rgba(255,187,0);
+    box-shadow: 0px 4px 4px #ababab;
+    border: none;
+}
+
+.again{
+    width: 150px;
+    height: 50px;
+    font-family: youshe;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background: #21353c;
+    box-shadow: 0px 4px 4px #ababab;
+    border: none;
+    color: #fff;
+}
+
+.textTitle{
+    font-family: youshe;
+    font-size: 30px;
+    width: max-content;
+    margin: auto;
+}
+
+.comContent{
+    letter-spacing: 2px;
+    line-height: 2;
+    text-indent: 2em;
+    margin-top: 20px;
+    transition: 1s;
+}
+

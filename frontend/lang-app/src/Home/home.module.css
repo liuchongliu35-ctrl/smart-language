@@ -1,0 +1,150 @@
+
+@font-face {
+  font-family: huawen;
+  src: url('../fonts/STXINGKA.TTF');
+}
+
+.titleCard{
+  width: 130px;
+  height: 100%;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 40px;
+}
+
+.titleCard:hover{
+  font-weight: 700;
+}
+
+.homeAvatar {
+  width: 76%;
+  height: max-content;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background: rgba(234,234,234);
+  border-radius: 10px ;
+}
+
+.oneCard {
+  width: 270px;
+  height: 250px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background: #fff;
+  padding: 20px;
+}
+
+.oneCard:nth-child(1){
+  background-color:#e5a84b ;
+}
+
+.oneCard:nth-child(2){
+  background-color: #d9883d;
+}
+
+.oneCard:nth-child(3){
+  background-color: #bc6e37;
+}
+
+.rateBox{
+  width: 100%;
+  height: 200px;
+ position: relative;
+
+  padding: 10px;
+}
+
+.functionBox{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  padding: 40px ;
+}
+
+.functionCard{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background: #4e93f4;
+  margin-right: 60px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.functionCard:nth-child(4n){
+  margin-right: 0px;
+}
+
+.cardText{
+  color: #f8e9e9;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.oneCardTitle{
+  font-size: 27px;
+  font-weight: 700;
+  color: #e6f3fd;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  line-height: 40px;
+}
+
+.oneCardBtn{
+  width: max-content;
+  height: max-content;
+  padding: 6px;
+  color: #fff ;
+  background-color:#2e59a7 ;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: auto;
+  box-shadow: 0px 2px 2px #2e59a799;
+  cursor: pointer;
+}
+
+.userIcon{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #e5a84b;
+  padding: 3px;
+}
+
+.userIcon:nth-child(1){
+  margin-left: 14.5px;
+  margin-right: 14.5px;
+  background-color: rgba(255,151,75);
+}
+
+.userIcon:nth-child(2){
+  margin-right: 14.5px;
+  background-color:rgba(63,213,153) ;
+
+}
+
+.siderCard{
+  width: 92%;
+  height: max-content;
+  border-radius: 10px;
+  /* background-color: rgba(234,234,234); */
+  margin: 10px;
+  color: #fff;
+}
+
+.motivatedText{
+  font-family: huawen;
+  font-size: 21px;
+}

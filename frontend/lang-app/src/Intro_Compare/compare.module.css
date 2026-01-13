@@ -1,0 +1,11 @@
+.left{
+    width: 510px;
+    height: 800px;
+    padding: 20px;
+    border-right: 1px solid #eaeaea;
+}
+
+.right{
+    padding: 20px;
+    flex: 1;
+}

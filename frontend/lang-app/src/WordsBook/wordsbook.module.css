@@ -1,0 +1,388 @@
+.titleCard {
+  width: 130px;
+  height: 100%;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 40px;
+}
+
+.titleCard:hover {
+  font-weight: 700;
+}
+
+.homeAvatar {
+  width: 76%;
+  height: max-content;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background: rgba(234, 234, 234);
+  border-radius: 10px;
+}
+
+
+
+.userIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #e5a84b;
+  padding: 3px;
+}
+
+.userIcon:nth-child(1) {
+  margin-left: 14.5px;
+  margin-right: 14.5px;
+  background-color: rgba(255, 151, 75);
+}
+
+.userIcon:nth-child(2) {
+  margin-right: 14.5px;
+  background-color: rgba(63, 213, 153);
+
+}
+
+.siderCard {
+  width: 92%;
+  height: max-content;
+  border-radius: 10px;
+  /* background-color: rgba(234,234,234); */
+  margin: 10px;
+  color: #fff;
+}
+
+.contentTitle {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+  font-size: 34px;
+  margin-bottom: 30px;
+  line-height: 70px;
+  font-family: youshe;
+  color: #4f4032;
+  position: relative;
+}
+
+.searchBox {
+  width: max-content;
+  height: 40px;
+  border-radius: 30px;
+  position: absolute;
+  right: 10px;
+  display: flex;
+  overflow: hidden;
+  background: #eaeaea;
+  transition: 1000ms;
+  box-shadow: 0px 2px 2px #3c3c3c;
+}
+
+.searchBox:focus-within {
+  background: #ffffff;
+  transition: 400ms;
+}
+
+::placeholder {
+  color: #b5b5b5;
+}
+
+
+.searchBar {
+  height: 40px;
+  width: 120px;
+  border: none;
+  margin-left: 10px;
+  background: #eaeaea;
+  transition: 400ms;
+}
+
+.searchBar:focus {
+  outline: none;
+  width: 300px;
+  transition: 400ms;
+  background: #ffffff;
+
+}
+
+.bookBox {
+  width: 100%;
+
+  /* border: 1px solid black; */
+}
+
+.wordsbookBox {
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-bottom: 90px;
+}
+
+.bookTitle {
+  width: max-content;
+  height: 25px;
+  line-height: 25px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.bookList {
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sceneCard {
+  width: 110px;
+  height: 130px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: #eaeaead2;
+  cursor: pointer;
+  margin-right: 30px;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #435fff4b;
+  background: linear-gradient(156.07deg, #F5F7FF 62.06%, #dae8fc 100%);
+
+}
+
+.contentImg {
+  width: 100%;
+  height: 40px;
+  background: #4e93f4;
+}
+
+.text {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  /* border: 1px solid black; */
+
+}
+
+.modalBox {
+  /* border: 1px solid black; */
+  height: 400px;
+}
+
+.modalTitle {
+  /* border: 1px solid black; */
+  width: 70px;
+  margin: auto;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.sceneSelBox {
+  padding-left: 50px;
+  padding-right: 50pxs;
+  display: flex;
+  /* border: 1px solid black; */
+  height: max-content;
+  flex-wrap: wrap;
+
+}
+
+.sceneSelCard {
+  width: 60px;
+  border-radius: 10px;
+  background: #eaeaea;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1;
+  /* border: 1px solid black; */
+}
+
+
+
+.checkbox {
+  /* border: 1px solid black; */
+  height: max-content;
+  width: max-content;
+  margin-right: 15px;
+  margin-bottom: 40px;
+
+}
+
+.checkbox:nth-child(3n) {
+  margin-right: 15px;
+}
+
+.wenhao {
+  cursor: pointer;
+}
+
+.listTitle {
+  text-align: center;
+  border: 1px solid black;
+  width: max-content;
+  height: 30px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  background: #3c3c3c;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 30px;
+  font-family: youshe;
+}
+
+.wordListBox {
+  height: 300px;
+  overflow: auto;
+  background: #fff9f1;
+  margin-top: 10px;
+}
+
+.wordBar {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 50px;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.47);
+  box-shadow: 0px 1px 2px #3c3c3c65;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.wordBarUnderstood {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 50px;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.47);
+  display: flex;
+  margin-bottom: 20px;
+  background: #ecd5522f;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #3c3c3c65;
+}
+
+.wordIndex {
+  width: 20px;
+  height: 20px;
+  background: #e5a84b;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wordIndexUnderstood {
+  width: 20px;
+  height: 20px;
+  background: #fedc5e;
+  color: #4f4032;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 2px #3c3c3c;
+}
+
+.wordText {
+  margin-top: 10px;
+  width: max-content;
+  height: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.wordTranslation {
+  margin-top: 10px;
+  width: max-content;
+  height: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.listBtn {
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  background: rgba(255, 187, 0);
+  margin: auto;
+  margin-top: 30px;
+}
+
+.addLoading {
+  width: 400px;
+  height: 430px;
+  position: fixed;
+  z-index: 2;
+  left: 560px;
+  background: #fff;
+}
+
+.wordLoading {
+  height: 300px;
+
+}
+
+.dot1 {
+  animation-delay: 0s;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  animation: move 1s infinite;
+}
+
+.dot2 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  animation: move 1s infinite;
+  margin-left: 20px;
+  animation-delay: 0.5s;
+
+}
+
+.dot3 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  animation: move 1s infinite;
+  margin-left: 20px;
+  animation-delay: 0.75s;
+
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
