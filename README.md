@@ -1,4 +1,4 @@
-<img width="802" height="1132" alt="架构图" src="https://github.com/user-attachments/assets/75ed6eff-933d-4181-bb49-664476895f95" /># smart-language
+# smart-language
 <div align="center">
   <h1>🚀 智多语 (Smart Polyglot)</h1>
   <h3>基于讯飞人工智能平台的情景化多语言学习系统（人工智能技术+语言学习）</h3>
