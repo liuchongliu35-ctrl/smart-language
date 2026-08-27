@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/Netty-WebSocket-red" alt="Netty">
     <img src="https://img.shields.io/badge/Frontend-React-blue" alt="React">
     <img src="https://img.shields.io/badge/AI-iFLYTEK_Spark-cyan" alt="iFlytek">
+    系统演示视频链接：https://www.bilibili.com/video/BV1m68d67EAT/
   </p>
 </div>
 
